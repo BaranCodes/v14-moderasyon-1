@@ -9,7 +9,7 @@ exports.run = async (client, message, args) => {
    const member = message.mentions.members.first();
   
    if(!member) return message.reply("Lütfen Atılacak   Kişiyi Belirtiniz.")
-//zort banlancak ne
+
   
    member.kick();
   
